@@ -19,6 +19,7 @@ class Calculator:
         return self.firstNumber + self.secondNumber + Calculator.num+self.num
 
 
+
 obj = Calculator(2, 3)
 obj.getData()
 print(obj.Summation())

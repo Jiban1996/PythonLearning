@@ -49,8 +49,8 @@ print("****** ************************")
 
 numDec=5
 for num in range (6):
-    print(num)
-    num -=1
+    print(num , "sf")
+    num -= 1
 
 for num in range(5, -1, -1):  # Start at 5, stop at -1, decrement by 1
     print(num)
