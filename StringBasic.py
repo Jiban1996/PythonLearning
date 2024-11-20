@@ -1,5 +1,7 @@
 str="Jiban kumar Mohanty"
-print(str[0])  #it will print first indext number charctor
+print(str[0])#it will print first indext number charctor
+for s in str:
+    print(s+"up")
 print(str[0:3]) #it will print substring # Jib
 str2="Mohanty"
 #if you want to check str contains str2 or not
