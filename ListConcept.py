@@ -37,6 +37,10 @@ print(ListValue)
 
 
 list = [15, 445, 13]
+listCpoy = list
+listcopy2= listCpoy.copy()
+print(listcopy2)
+print(listCpoy)
 list.reverse()
 list.sort()
 L = list
