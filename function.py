@@ -28,3 +28,8 @@ o =int(input())
 def summm():
     print(k+o)
 summm()
+
+
+ty=input()
+print(ty)
+print(type(ty))

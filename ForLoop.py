@@ -54,3 +54,6 @@ for num in range (6):
 
 for num in range(5, -1, -1):  # Start at 5, stop at -1, decrement by 1
     print(num)
+b='ahd'
+c=sorted(b)
+print(c)
