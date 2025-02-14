@@ -27,6 +27,14 @@ m = 4
 print(4+m)  # 8
 
 
+name , age, hight="jiban",29,"5'8\""
+print(name)
+print(age)
+print(hight)
+
+import  sys
+print(sys.version)
+
 # Python data Types
 # Numeric
 # String
