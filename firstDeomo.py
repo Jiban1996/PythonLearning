@@ -41,3 +41,22 @@ print(sys.version)
 # List
 # Tuple
 # Dictionary
+
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+"""If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. T
+he global variable with the same name will remain as it was, global and with the original value.
+"""
+x = "awesome"
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
