@@ -8,8 +8,17 @@ print(d)
 
 #STring is immuatable (cant change the value if  we change the vale and new memomry allocated to the variable
 #ex
-
+valuevariableList = ["string ", 5, 5.6]  #  in here value represent variable (list )
+print(valuevariableList[-1])
 str="Jiban"
+print("----------------")
+print(str[1:-1])
+print(str[-1])
+print(valuevariableList[-1])
+print(valuevariableList[0:-1])
+
+print("----------------")
+
 print(id(str))  #id() returns adress of memory
 #1685890355440
 
